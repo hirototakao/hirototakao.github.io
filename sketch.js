@@ -9,7 +9,6 @@ let ball;
         // This method will draw the circle  
         // and track the mouse as well. 
         function draw() { 
-            background(255); 
             x += (mouseX - x) * 0.1; 
             y += (mouseY - y) * 0.1; 
             fill(255); 
