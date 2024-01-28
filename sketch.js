@@ -9,5 +9,5 @@ function draw() {
    let x += (mouseX - x) * 0.04; 
    let y += (mouseY - y) * 0.04; 
    fill(random(256), random(256), random(256)); 
-   ellipse(x, y, 5000, 5000);
+   ellipse(x, y, 50, 50);
 }
