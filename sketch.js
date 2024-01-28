@@ -2,7 +2,6 @@ let ball;
   
         let x = 0; 
         let y = 0; 
-        createCanvas(windowWidth, windowHeight); 
         canvas.style('z-index', 9999);
         noCursor();
 
