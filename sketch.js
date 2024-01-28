@@ -1,8 +1,9 @@
 function setup() {
  createCanvas(windowWidth, windowHeight);
- noCursor();
 }
 function draw() {
    background(255);
+   strokeWeight(20);
+   stroke("orange");
    point(mouseX,mouseY);
 }
