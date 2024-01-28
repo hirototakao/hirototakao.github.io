@@ -2,7 +2,6 @@ function setup() {
  createCanvas(windowWidth, windowHeight);
 }
 function draw() {
-   strokeWeight(400);
-   stroke("orange");
+   fill(0);
    ellipse(mouseX,mouseY, 50, 50);
 }
