@@ -12,6 +12,6 @@ let ball;
             background(255); 
             x += (mouseX - x) * 0.1; 
             y += (mouseY - y) * 0.1; 
-            fill(0); 
+            fill(255); 
             ellipse(x, y, 50, 50); 
         } 
