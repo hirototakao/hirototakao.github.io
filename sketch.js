@@ -2,7 +2,7 @@ let x = 0;
 let y = 0;
 
 function setup(){
- createCanvas(windowWidth, windowHeight);
+ createCanvas(windowWidth, windowHeight); 
 }
 function draw() {
 	background(255);
@@ -10,6 +10,7 @@ function draw() {
 	y += (mouseY - y) * 0.2;
 	fill(100);
 	noStroke();
+  style('z-index', "9999");
   circle(x, y, 50);
 }
 function windowResized() {
