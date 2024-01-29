@@ -1,6 +1,9 @@
 let x = 0;
 let y = 0;
 
+function setup(){
+ createCanvas(windowWidth, windowHeight);
+}
 function draw() {
 	background(255);
 	x += (mouseX - x) * 0.2;
