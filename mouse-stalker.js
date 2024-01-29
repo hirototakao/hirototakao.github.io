@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
 
+    #stalker {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-color: red;
+      border-radius: 50%;
+      pointer-events: none; /* Prevent the stalker from capturing mouse events */
+      transition: transform 0.1s ease-out;
+    }
+  </style>
+</head>
+<body>
+  <div id="stalker"></div>
+
+  <script>
+    // Get the stalker element
+    const stalker = document.getElementById('stalker');
+
+    // Listen for mousemove events on the document
+    document.addEventListener('mousemove', (event) => {
+      // Update the stalker position based on the mouse coordinates
+      const mouseX = event.clientX;
+      const mouseY = event.clientY;
+
+      // Move the stalker to the mouse position
+      stalker.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
+    });
+  </script>
+</body>
+</html>
