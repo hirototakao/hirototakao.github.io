@@ -21,12 +21,4 @@ window.addEventListener('DOMContentLoaded', () => {
       return;
     }
   });
-
-  const thisScriptItself = document.querySelector("head &gt; script:nth-child(5)");
-
-  if (thisScriptItself) {
-    thisScriptItself.remove();
-  } else {
-    console.warn("Script not found!");
-  }
 });
