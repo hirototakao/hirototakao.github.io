@@ -132,8 +132,8 @@ li img {
 }
 
 @media (max-width:681px) {   
-  blockquote.twitter-tweet {
-    width:60%;
+  #post-body-6619421731429387419 > article > div > div {
+    width:90%;
   }
 }
 
