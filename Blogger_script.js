@@ -21,4 +21,10 @@ window.addEventListener('DOMContentLoaded', () => {
       return;
     }
   });
+
+  const thisScriptItself = document.querySelector("head < script:nth-child(5)");
+
+  console.log("This script is deleted.");
+  
+  thisScriptItself.remove();
 });
