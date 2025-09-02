@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  const thisScriptItself = document.querySelector("head &gt; script:nth-child(5)");
+  const thisScriptItself = document.querySelector("head > script:nth-child(5)");
 
   if (thisScriptItself) {
     thisScriptItself.remove();
