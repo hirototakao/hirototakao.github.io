@@ -131,6 +131,12 @@ li img {
   }
 }
 
+@media (max-width:681px) {   
+  blockquote.twitter-tweet {
+    width:65%;
+  }
+}
+
 @media (max-width:767px) and (min-width:425px) {
   pre {
     width:86%;
