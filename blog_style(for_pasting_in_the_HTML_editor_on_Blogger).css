@@ -132,7 +132,7 @@ li img {
 }
 
 @media (max-width:681px) {   
-  #post-body-6619421731429387419 > article > div > div {
+ .twitter-widget-resizer {
     width:90%;
   }
 }
