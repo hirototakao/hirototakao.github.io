@@ -24,8 +24,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
   const thisScriptItself = document.querySelector("head > script:nth-child(5)");
 
-  if (scriptToRemove) {
-    scriptToRemove.remove();
+  if (thisScriptItself) {
+    thisScriptItself.remove();
   } else {
     console.warn("Script not found!");
   }
