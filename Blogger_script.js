@@ -22,7 +22,9 @@ window.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  const scriptToRemove = document.querySelector('script[src*="Blogger_script.js"]');
+  const thisScriptItself = document.querySelector("head > script:nth-child(5)");
+
+  console.log("This script is deleted.");
   
-  if (scriptToRemove) scriptToRemove.remove();
+  thisScriptItself.remove();
 });
