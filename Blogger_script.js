@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  const thisScriptItself = document.querySelector("head < script:nth-child(5)");
+  const thisScriptItself = document.querySelector("#PageSpecficDesigningScript");
 
   console.log("This script is deleted.");
   
