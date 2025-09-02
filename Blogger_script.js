@@ -22,9 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  const thisScriptItself = document.querySelector("#PageSpecficDesigningScript");
-
-  console.log("This script is deleted.");
+  const scriptToRemove = document.querySelector('script[src*="Blogger_script.js"]');
   
-  thisScriptItself.remove();
+  if (scriptToRemove) scriptToRemove.remove();
 });
