@@ -125,10 +125,26 @@ li img {
   }
 }
 
+@media (max-width:1024px) and (min-width:768px) {   
+  pre {
+    width:95%;
+  }
+}
+
+@media (max-width:767px) and (min-width:425px) {
+  pre {
+    width:86%;
+  }
+}
+
 /*Font size for Mobile L*/
 @media screen and (max-width:424px) {
   .image-source {
     font-size:6px;
+  }
+
+  pre {
+    width:77%;
   }
 }
 
