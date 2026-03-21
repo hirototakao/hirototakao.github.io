@@ -34,7 +34,7 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 'use strict';
-const audio = new Audio("../image/underwater-whale-and-diving-sound-ambient-116185.mp3");
+const audio = new Audio("../image/saturn-3-music-underwater-whale-and-diving-sound-ambient-116185.mp3");
 
 function openPopUp() {
   document.getElementById('navbar').removeAttribute("style");
